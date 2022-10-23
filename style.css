@@ -12,12 +12,12 @@ body {
 
 :root {
   --primary-color: white;
-  --secondary-color: black;
+  --secondary-color: rgb(22, 21, 21);
   /* --ternary-color:rgb(41, 39, 39); */
 }
 
 .dark-theme {
-  --primary-color: black;
+  --primary-color: rgb(22, 21, 21);
   --secondary-color: white;
   --ternary-color: rgb(41, 39, 39);
 }
@@ -31,7 +31,7 @@ body {
 
 #btn33 {
   font-size: large;
-  background-color: purple;
+  background-color: rgb(128, 0, 128);
   color: var(--secondary-color);
 }
 
@@ -315,6 +315,7 @@ option {
 }
 
 .footer {
+  color: palevioletred;
   display: flex;
   margin: 0 auto;
   max-width: 1400px;
